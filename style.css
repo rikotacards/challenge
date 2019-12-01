@@ -2,6 +2,12 @@ h1, h2, p, a{
     font-family: sans-serif;
 }
 
+.logo-name-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
 .body-container {
     height: 100vh;
     display: flex;
@@ -19,6 +25,7 @@ a, a:hover, a:focus, a:active {
     height: 96px;
     display: flex;
     padding: 0 15%;
+    /* justify-content: space-between */
 }
 .appbar-links {
     height: inherit;
