@@ -1,0 +1,77 @@
+.body-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.menu-bar{ 
+    background: #DDDDDD;
+    height: 96px;
+    display: flex;
+    padding: 0 15%;
+}
+.appbar-links {
+    height: inherit;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: inherit;
+    display: flex;
+    flex-grow: 1;
+    align-items: center
+}
+
+.free-trial{
+    color:#fcba03; 
+}
+
+.hero-container {
+    background: #F6F6F6;
+    height: 50%;
+    padding: 0 15%;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.hero-link {
+    background: #fcba03;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.container-2 {
+    display: flex;
+    flex-grow: 1;
+}
+.try-link {
+    background: fcba03;
+    height: 100px;
+    width: auto;
+}
+
+.container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%;
+
+}
+
+.lower-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
